@@ -28,67 +28,67 @@
             <hr/>
 
             <div class="uk-form-row">
-                <label class="uk-form-label">Full name</label>
+                <label class="uk-form-label" for="firstname">First Name</label>
                 <div class="uk-form-controls">
-                    <input name="firstName" type="text" placeholder="First name" />
+                    <input name="firstName" id="firstname" type="text" placeholder="First name" />
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label"></label>
+                <label class="uk-form-label" for="lastName">Last Name</label>
                 <div class="uk-form-controls">
-                    <input name="lastName" type="text" placeholder="Last name" />
+                    <input name="lastName" id="lastName" type="text" placeholder="Last name" />
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label">Username</label>
+                <label class="uk-form-label" for="username">Username</label>
                 <div class="uk-form-controls">
-                    <input name="username" type="text" placeholder="Username" />
+                    <input name="username" id="username" type="text" placeholder="Username" />
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label">Email address</label>
+                <label class="uk-form-label" for="email">Email Address</label>
                 <div class="uk-form-controls">
-                    <input name="email" type="text" placeholder="Email address" />
+                    <input name="email" id="email" type="text" placeholder="Email address" />
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label">Password</label>
+                <label class="uk-form-label" for="password">Password</label>
                 <div class="uk-form-controls">
-                    <input name="password" type="password" placeholder="Password" />
+                    <input name="password" id="password" type="password" placeholder="Password" />
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label">Gender</label>
+                <div class="uk-form-label" for="gender">Gender</div>
                 <div class="uk-form-controls">
-                    <label><input name="gender" type="radio" value="male" /> Male</label> <br/>
-                    <label><input name="gender" type="radio" value="female" /> Female</label> <br/>
-                    <label><input name="gender" type="radio" value="other" /> Other</label>
+                    <label for="male"><input name="gender" type="radio"  id="male" value="male" /> Male</label> <br/>
+                    <label for="female"><input name="gender" type="radio"  id="female" value="female" /> Female</label> <br/>
+                    <label for="other"><input name="gender" type="radio"  id="other" value="other" /> Other</label>
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label" id="captchaOperation"></label>
+                <label class="uk-form-label" id="captchaOperation" for="captchaOperation">Label</label>
                 <div class="uk-form-controls">
-                    <input type="text" name="captcha" />
+                    <input type="text" name="captcha" id="captchaOperation" />
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label"></label>
+                <label class="uk-form-label" for="agree">Label</label>
                 <div class="uk-form-controls">
                     <label>
-                        <input name="agree" type="checkbox" /> Agree with the terms and conditions
+                        <input name="agree" type="checkbox" id="agree" /> Agree with the terms and conditions
                     </label>
                 </div>
             </div>
 
             <div class="uk-form-row">
-                <label class="uk-form-label"></label>
+                <div class="uk-form-label"></div>
                 <div class="uk-form-controls">
                     <button type="submit" class="uk-button uk-button-primary">Submit</button>
                 </div>
